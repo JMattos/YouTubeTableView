@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A82A7C4814E865BF003D5CDF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A82A7C4714E865BF003D5CDF /* UIKit.framework */; };
+		A82A7C4A14E865BF003D5CDF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A82A7C4914E865BF003D5CDF /* Foundation.framework */; };
+		A82A7C4C14E865BF003D5CDF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A82A7C4B14E865BF003D5CDF /* CoreGraphics.framework */; };
+		A82A7C5214E865BF003D5CDF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A82A7C5014E865BF003D5CDF /* InfoPlist.strings */; };
+		A82A7C5414E865BF003D5CDF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A82A7C5314E865BF003D5CDF /* main.m */; };
+		A82A7C5814E865BF003D5CDF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A82A7C5714E865BF003D5CDF /* AppDelegate.m */; };
+		A82A7C5B14E865BF003D5CDF /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A82A7C5914E865BF003D5CDF /* MainStoryboard.storyboard */; };
+		A82A7C5E14E865BF003D5CDF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A82A7C5D14E865BF003D5CDF /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A82A7C4314E865BF003D5CDF /* YouTubeTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouTubeTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A82A7C4714E865BF003D5CDF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A82A7C4914E865BF003D5CDF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A82A7C4B14E865BF003D5CDF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A82A7C4F14E865BF003D5CDF /* YouTubeTableView-Info.plist */ = {isa = PBXFileReference; path = "YouTubeTableView-Info.plist"; sourceTree = "<group>"; };
+		A82A7C5114E865BF003D5CDF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A82A7C5314E865BF003D5CDF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A82A7C5514E865BF003D5CDF /* YouTubeTableView-Prefix.pch */ = {isa = PBXFileReference; path = "YouTubeTableView-Prefix.pch"; sourceTree = "<group>"; };
+		A82A7C5614E865BF003D5CDF /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		A82A7C5714E865BF003D5CDF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A82A7C5A14E865BF003D5CDF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		A82A7C5C14E865BF003D5CDF /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		A82A7C5D14E865BF003D5CDF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A82A7C4014E865BF003D5CDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A82A7C4814E865BF003D5CDF /* UIKit.framework in Frameworks */,
+				A82A7C4A14E865BF003D5CDF /* Foundation.framework in Frameworks */,
+				A82A7C4C14E865BF003D5CDF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A82A7C3814E865BE003D5CDF = {
+			isa = PBXGroup;
+			children = (
+				A82A7C4D14E865BF003D5CDF /* YouTubeTableView */,
+				A82A7C4614E865BF003D5CDF /* Frameworks */,
+				A82A7C4414E865BF003D5CDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A82A7C4414E865BF003D5CDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A82A7C4314E865BF003D5CDF /* YouTubeTableView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A82A7C4614E865BF003D5CDF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A82A7C4714E865BF003D5CDF /* UIKit.framework */,
+				A82A7C4914E865BF003D5CDF /* Foundation.framework */,
+				A82A7C4B14E865BF003D5CDF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A82A7C4D14E865BF003D5CDF /* YouTubeTableView */ = {
+			isa = PBXGroup;
+			children = (
+				A82A7C5614E865BF003D5CDF /* AppDelegate.h */,
+				A82A7C5714E865BF003D5CDF /* AppDelegate.m */,
+				A82A7C5914E865BF003D5CDF /* MainStoryboard.storyboard */,
+				A82A7C5C14E865BF003D5CDF /* ViewController.h */,
+				A82A7C5D14E865BF003D5CDF /* ViewController.m */,
+				A82A7C4E14E865BF003D5CDF /* Supporting Files */,
+			);
+			path = YouTubeTableView;
+			sourceTree = "<group>";
+		};
+		A82A7C4E14E865BF003D5CDF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A82A7C4F14E865BF003D5CDF /* YouTubeTableView-Info.plist */,
+				A82A7C5014E865BF003D5CDF /* InfoPlist.strings */,
+				A82A7C5314E865BF003D5CDF /* main.m */,
+				A82A7C5514E865BF003D5CDF /* YouTubeTableView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A82A7C4214E865BF003D5CDF /* YouTubeTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A82A7C6114E865BF003D5CDF /* Build configuration list for PBXNativeTarget "YouTubeTableView" */;
+			buildPhases = (
+				A82A7C3F14E865BF003D5CDF /* Sources */,
+				A82A7C4014E865BF003D5CDF /* Frameworks */,
+				A82A7C4114E865BF003D5CDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YouTubeTableView;
+			productName = YouTubeTableView;
+			productReference = A82A7C4314E865BF003D5CDF /* YouTubeTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A82A7C3A14E865BE003D5CDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Adobe;
+			};
+			buildConfigurationList = A82A7C3D14E865BE003D5CDF /* Build configuration list for PBXProject "YouTubeTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A82A7C3814E865BE003D5CDF;
+			productRefGroup = A82A7C4414E865BF003D5CDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A82A7C4214E865BF003D5CDF /* YouTubeTableView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A82A7C4114E865BF003D5CDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A82A7C5214E865BF003D5CDF /* InfoPlist.strings in Resources */,
+				A82A7C5B14E865BF003D5CDF /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A82A7C3F14E865BF003D5CDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A82A7C5414E865BF003D5CDF /* main.m in Sources */,
+				A82A7C5814E865BF003D5CDF /* AppDelegate.m in Sources */,
+				A82A7C5E14E865BF003D5CDF /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A82A7C5014E865BF003D5CDF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A82A7C5114E865BF003D5CDF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A82A7C5914E865BF003D5CDF /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A82A7C5A14E865BF003D5CDF /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A82A7C5F14E865BF003D5CDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A82A7C6014E865BF003D5CDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A82A7C6214E865BF003D5CDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YouTubeTableView/YouTubeTableView-Prefix.pch";
+				INFOPLIST_FILE = "YouTubeTableView/YouTubeTableView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A82A7C6314E865BF003D5CDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YouTubeTableView/YouTubeTableView-Prefix.pch";
+				INFOPLIST_FILE = "YouTubeTableView/YouTubeTableView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A82A7C3D14E865BE003D5CDF /* Build configuration list for PBXProject "YouTubeTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A82A7C5F14E865BF003D5CDF /* Debug */,
+				A82A7C6014E865BF003D5CDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A82A7C6114E865BF003D5CDF /* Build configuration list for PBXNativeTarget "YouTubeTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A82A7C6214E865BF003D5CDF /* Debug */,
+				A82A7C6314E865BF003D5CDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A82A7C3A14E865BE003D5CDF /* Project object */;
+}
