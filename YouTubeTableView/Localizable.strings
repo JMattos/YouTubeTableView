@@ -1,0 +1,19 @@
+/* 
+  Localizable.strings
+  YouTubeTableView
+
+  Created by John Mattos on 2/12/12.
+  Copyright (c) 2012 Adobe. All rights reserved.
+*/
+
+/* Youtube */
+"YouTube URL"="http://www.youtube.com/watch?v=";
+"YouTube Placeholder Image"="Youtube.png";
+"YouTube API Key" = "AI39si7zx5bRqSkC2XVU4hx0fpOLf1DdyCH8ILPcSLy1B1IgzcLsPu7NPhI0pnN_i6anyg6pzE1l4Nc9RKINBG10GgZqClOAnw";
+"YouTube HTML" = "<html><head>\<body style=\"margin:0\">\<embed id=\"yt\" src=\"%@\" type=\"application/x-shockwave-flash\" \width=\"%0.0f\" height=\"%0.0f\"></embed>\</body></html>";
+"YouTube Object HTML"="<html><body style='background:#000;margin-top:0px;margin-left:0px'><div><object width='110' height='90'><param name='movie' value='http://www.youtube.com/v/%@&f=gdata_videos&c=ytapi-my-clientID&d=%@'></param><param name='wmode' value='transparent'></param><embed src='http://www.youtube.com/v/%@&f=gdata_videos&c=ytapi-my-clientID&d=%@' type='application/x-shockwave-flash' wmode='transparent' width='110' height='90'></embed></object></div></body></html>";
+
+/* Reachability */
+"Movie Reachability URL"="www.youtube.com";
+"Reachability Error Title"="Cannot Reach the Internet";
+"Reachability Error Body"="You need WiFi or 3G access to view and play videos. Click to view a video when you have coverage again";
