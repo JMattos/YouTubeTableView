@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  YouTubeDetailViewController.h
 //  YouTubeTableView
 //
 //  Created by John Mattos on 2/12/12.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface YouTubeDetailViewController : UIViewController
 
 @end
