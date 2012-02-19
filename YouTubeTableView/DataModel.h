@@ -14,6 +14,8 @@
 
 @interface DataModel : NSObject
 @property (nonatomic, strong) NSMutableArray *videoIDs;
+@property (nonatomic, strong) NSArray *imageURLs;
+@property (nonatomic, strong) NSArray *imageCaptions;
 @property (nonatomic, weak) id <DataModelDelegate> delegate;
 @property (nonatomic, strong) ReachabilityManager *reachabilityManager;
 @end

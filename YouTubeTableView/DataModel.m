@@ -11,15 +11,24 @@
 #import "ReachabilityManager.h"
 
 @interface DataModel()
-- (void) refreshDummyVideoIDs;
+- (void) loadDummyVideoIDs;
 @end
 
 @implementation DataModel
 @synthesize delegate=_delegate;
+@synthesize imageURLs=_imageURLs;
+@synthesize imageCaptions=_imageCaptions;
 @synthesize videoIDs=_videoIDs;
 @synthesize reachabilityManager=_reachabilityManager;
 
-- (void) refreshDummyVideoIDs{
+- (void) loadDummyRemoteImages{
+    NSLog(@"Setting up the dummy remote images");
+    self.imageCaptions = [[NSArray alloc] initWithObjects:@"Frosty Spiderweb",@"Happy New Year!",nil];
+
+    self.imageURLs = [[NSArray alloc] initWithObjects:@"http://farm6.static.flickr.com/5042/5323996646_9c11e1b2f6_b.jpg", @"http://farm6.static.flickr.com/5007/5311573633_3cae940638.jpg",nil];
+}
+
+- (void) loadDummyVideoIDs{
     NSLog(@"Setting up the dummy data");
     self.videoIDs = [[NSMutableArray alloc] initWithCapacity:5];
     
@@ -71,7 +80,8 @@
     self = [super init];
     self.reachabilityManager = [[ReachabilityManager alloc]init];
     if (self) {
-        [self refreshDummyVideoIDs];
+        [self loadDummyVideoIDs];
+        [self loadDummyRemoteImages];
     }
     return self;
 }
