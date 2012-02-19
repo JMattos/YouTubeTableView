@@ -48,7 +48,6 @@ typedef enum
 	UILabel *_caption;
 	
 	NSMutableDictionary *_photoLoaders;
-	NSMutableArray *_barItems;
 	NSMutableArray *_photoThumbnailViews;
 	NSMutableArray *_photoViews;
 	
@@ -57,6 +56,8 @@ typedef enum
 	UIBarButtonItem *_nextButton;
 	UIBarButtonItem *_prevButton;
 }
+
+@property (nonatomic, retain) NSMutableArray *barItems; // JLM Added
 
 - (id)initWithPhotoSource:(NSObject<FGalleryViewControllerDelegate>*)photoSrc;
 - (id)initWithPhotoSource:(NSObject<FGalleryViewControllerDelegate>*)photoSrc barItems:(NSArray*)items;
