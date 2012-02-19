@@ -74,7 +74,7 @@
 @synthesize useThumbnailView = _useThumbnailView;
 @synthesize startingIndex = _startingIndex;
 @synthesize beginsInThumbnailView = _beginsInThumbnailView;
-
+@synthesize barItems=_barItems;
 #pragma mark - Public Methods
 
 
@@ -135,6 +135,10 @@
 	return self;
 }
 
+-(void) setBarItems:(NSArray*)items{
+    [_barItems addObjectsFromArray:items];
+    [self reloadGallery];
+}
 
 - (void)loadView
 {
