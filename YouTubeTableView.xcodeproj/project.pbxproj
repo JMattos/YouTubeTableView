@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A812280E14F4091500545C4C /* ReadMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = A812280D14F4091500545C4C /* ReadMe.txt */; };
 		A81CB0B614F170B8000C7383 /* StoryBoardFGalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A81CB0B514F170B8000C7383 /* StoryBoardFGalleryViewController.m */; };
 		A81CB0C014F17BC1000C7383 /* photo-gallery-trashcan.png in Resources */ = {isa = PBXBuildFile; fileRef = A81CB0BC14F17BC1000C7383 /* photo-gallery-trashcan.png */; };
 		A81CB0C114F17BC1000C7383 /* photo-gallery-right.png in Resources */ = {isa = PBXBuildFile; fileRef = A81CB0BD14F17BC1000C7383 /* photo-gallery-right.png */; };
@@ -123,6 +124,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A812280D14F4091500545C4C /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
 		A81CB0B414F170B8000C7383 /* StoryBoardFGalleryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryBoardFGalleryViewController.h; sourceTree = "<group>"; };
 		A81CB0B514F170B8000C7383 /* StoryBoardFGalleryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryBoardFGalleryViewController.m; sourceTree = "<group>"; };
 		A81CB0BC14F17BC1000C7383 /* photo-gallery-trashcan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "photo-gallery-trashcan.png"; path = "../../Gallery/gdavis-FGallery-iPhone-0d6b3aa/FGallery/photo-gallery-trashcan.png"; sourceTree = "<group>"; };
@@ -387,6 +389,7 @@
 				A82A7C6714E8660B003D5CDF /* View */,
 				A82A7C6514E865E0003D5CDF /* Controller */,
 				A82A7C4E14E865BF003D5CDF /* Supporting Files */,
+				A812280D14F4091500545C4C /* ReadMe.txt */,
 			);
 			path = YouTubeTableView;
 			sourceTree = "<group>";
@@ -991,6 +994,7 @@
 				A81CB0C114F17BC1000C7383 /* photo-gallery-right.png in Resources */,
 				A81CB0C214F17BC1000C7383 /* photo-gallery-left.png in Resources */,
 				A81CB0C314F17BC1000C7383 /* photo-gallery-edit-caption.png in Resources */,
+				A812280E14F4091500545C4C /* ReadMe.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -6,8 +6,10 @@
 //  Copyright (c) 2012 Adobe. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-
+@class Video;
+@class YouTubeView;
 @interface YouTubeDetailViewController : UIViewController
-
+@property (nonatomic, strong) Video *currentVideo;
+@property (weak, nonatomic) IBOutlet UITextView *videoTitleTextView;
+@property (weak, nonatomic) IBOutlet YouTubeView *webView;
 @end

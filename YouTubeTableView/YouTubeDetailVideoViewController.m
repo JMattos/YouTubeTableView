@@ -3,7 +3,7 @@
 //  YouTubeTableView
 //
 //  Created by John Mattos on 2/12/12.
-//  Copyright (c) 2012 Adobe. All rights reserved.
+//  Copyright (c) 2012 Gladiator Apps L.L.C.. All rights reserved.
 //
 // Credit goes to http://iphonedevelopertips.com/video/display-youtube-videos-without-exiting-your-application.html
 

@@ -7,48 +7,40 @@
 //
 
 #import "YouTubeDetailViewController.h"
+#import "YouTubeView.h"
+#import "Video.h"
 
 @implementation YouTubeDetailViewController
+@synthesize currentVideo=_currentVideo;
+@synthesize webView = _webView;
+@synthesize videoTitleTextView = _videoTitleTextView;
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
+-(void) setup{
+    if (self.currentVideo) {
+        self.videoTitleTextView.text = self.currentVideo.videoTitle;
+        NSString *youTubeMoviewURL = NSLocalizedString(@"YouTube URL", nil);
+        NSString *movieURL = [NSString stringWithFormat:@"%@%@", youTubeMoviewURL, self.currentVideo.youtubeURL];
+        self.webView = [[YouTubeView alloc] initWithStringAsURL:movieURL frame:CGRectMake(0, 0, 320, 150)];
+        [[self view] addSubview:self.webView];
+        //self.webView.hidden=NO;
     }
-    return self;
 }
 
 - (void)didReceiveMemoryWarning
 {
-    // Releases the view if it doesn't have a superview.
     [super didReceiveMemoryWarning];
-    
-    // Release any cached data, images, etc that aren't in use.
 }
 
 #pragma mark - View lifecycle
-
-/*
-// Implement loadView to create a view hierarchy programmatically, without using a nib.
-- (void)loadView
-{
+- (void)viewDidAppear:(BOOL)animated{
+    [self setup];
 }
-*/
-
-/*
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-}
-*/
 
 - (void)viewDidUnload
 {
     [super viewDidUnload];
-    // Release any retained subviews of the main view.
-    // e.g. self.myOutlet = nil;
+    [self setVideoTitleTextView:nil];
+    [self setWebView:nil];
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
